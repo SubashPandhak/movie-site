@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="trailer.css" />
+    <script
+      src="https://kit.fontawesome.com/f7e8d83e3e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="modal" class="full">
+      <div class="navBar">
+        <div id="close" onclick="closeModal()" class="cancel">
+          <i class="fa-solid fa-xmark cross"></i>
+        </div>
+      </div>
+      <div class="titles">
+        <div class="name">
+          <p class="mname">Oppenheimer</p>
+          <div class="time">
+            <p class="t">2023</p>
+            <p class="t">.</p>
+            <p class="t">R</p>
+            <p class="i">.</p>
+            <p class="t">3h</p>
+          </div>
+        </div>
+        <div class="popular">
+          <p class="popularity">POPULARITY</p>
+          <div class="graph">
+            <i
+              class="fa-solid fa-chart-line"
+              style="font-size: 20px; color: green"
+            ></i>
+            <p class="t" style="color: white; font-size: 20px">5</p>
+            <i
+              class="fa-solid fa-angle-up up"
+              style="color: grey; font-size: 10px"
+            ></i>
+            <p class="t" style="color: grey">4</p>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <img class="photo" src="./assets/oppen.png" alt="No image" /><iframe
+          class="video"
+          width="967"
+          height="544"
+          src="https://www.youtube.com/embed/uYPbbksJxIg"
+          title="Oppenheimer | New Trailer"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="collection">
+          <div class="all">
+            <i
+              class="fa-solid fa-video"
+              style="color: white; font-size: 2rem"
+            ></i>
+            <p class="collec">16 VIDEOS</p>
+          </div>
+          <div class="all">
+            <i
+              class="fa-regular fa-image"
+              style="color: white; font-size: 2rem"
+            ></i>
+            <p class="collec">50 PHOTOS</p>
+          </div>
+        </div>
+      </div>
+      <div class="tail">
+        <div class="info">
+          <div class="genre">
+            <div class="genres"><p class="gname">Biography</p></div>
+            <div class="genres"><p class="gname">Drama</p></div>
+            <div class="genres"><p class="gname">History</p></div>
+          </div>
+          <p class="description">
+            The story of American scientist J. Robert Oppenheimer and his role
+            in the development of the atomic bomb.
+          </p>
+          <div class="cast">
+            <p class="casts">Director</p>
+            <p class="cname">Christopher Nolan</p>
+          </div>
+          <div class="cast">
+            <p class="casts">Writers</p>
+            <p class="cname">Christopher Nolan</p>
+            <div class="dot"></div>
+            <p class="cname">Kai Bird</p>
+            <div class="dot"></div>
+            <p class="cname">Martin Sherwin</p>
+          </div>
+          <div class="cast">
+            <p class="casts">Stars</p>
+            <p class="cname">Cillian Murphy</p>
+            <div class="dot"></div>
+            <p class="cname">Emily Blunt</p>
+            <div class="dot"></div>
+            <p class="cname">Matt Damon</p>
+            <div class="dot"></div>
+            <p class="cname">Robert Downey Jr.</p>
+          </div>
+        </div>
+        <div class="date">
+          <div class="release">
+            <div class="line"></div>
+            <div class="mtime">
+              <p class="rname">COMING SOON</p>
+              <p class="rdate">Releases July 21,2023</p>
+            </div>
+          </div>
+          <div class="add">
+            <div class="watchlist">
+              <div class="plus"><p>+</p></div>
+              <div class="awatch">
+                <p class="awatch1">Add to Watchlist</p>
+                <p class="added">Added by 275k users</p>
+              </div>
+            </div>
+            <div class="more"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="trailer.js"></script>
+</html>

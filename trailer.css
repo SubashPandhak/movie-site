@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-image: url(./assets/oppenheimer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.full {
+  padding: 0px 185px 50px;
+  background-image: linear-gradient(90deg, #1a161f, #0d0c0faf, #1a161f);
+}
+
+.navBar {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.cancel {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #60556f35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(181, 178, 178);
+  right: 10px;
+  top: 10px;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  background-color: #60556f64;
+}
+
+.titles {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.mname {
+  font-size: 50px;
+  color: white;
+}
+
+.t {
+  font-size: 15px;
+  color: white;
+  margin: 3px;
+}
+
+.i {
+  font-size: 10px;
+  color: white;
+  margin: 3px;
+}
+
+.graph {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 3px;
+}
+
+.popularity {
+  color: grey;
+  font-weight: 700;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  gap: 4px;
+  padding: 0 10px 10px;
+}
+
+.photo {
+  width: 270px;
+  height: 404px;
+}
+
+.video {
+  height: 404px;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.all {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(128, 128, 128, 0.425);
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collec {
+  margin-top: 12px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.info {
+  width: 700px;
+}
+
+.tail {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.genre {
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.genres {
+  height: 30px;
+  border-radius: 1500px;
+  border: 1px solid grey;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.gname {
+  color: white;
+  font-size: 15px;
+}
+
+.description {
+  padding: 10px 0 15px;
+  color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.533);
+}
+
+.cast {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.533);
+}
+
+.casts {
+  color: white;
+}
+
+.cname {
+  color: #528fde;
+}
+
+.dot {
+  background-color: white;
+  height: 2px;
+  width: 2px;
+}
+
+.release {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.line {
+  width: 4px;
+  height: 35px;
+  background-color: #f5c518;
+  border-radius: 20px;
+}
+
+.rname {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.rdate {
+  color: white;
+  font-size: 15px;
+}
+
+.add {
+  display: flex;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.watchlist {
+  width: 280px;
+  height: 45px;
+  background-color: rgba(128, 128, 128, 0.425);
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.more {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(128, 128, 128, 0.425);
+  border-radius: 0 5px 5px 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.awatch1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.added {
+  margin-top: 2px;
+  font-size: 12px;
+  color: rgb(157, 155, 155);
+}

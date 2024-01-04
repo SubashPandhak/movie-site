@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mero Movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f7e8d83e3e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="movieSite">
+        <div class="netflix">
+          <img class="logo" src="./assets/netflix.jpg" />
+        </div>
+        <div class="prime">
+          <img class="logo" src="./assets/prime.jpg" />
+        </div>
+        <div class="disney">
+          <img class="logo" src="./assets/disney.jpg" />
+        </div>
+        <div class="hbo">
+          <img class="logo" src="./assets/hbomax.png" />
+        </div>
+        <div class="add logo"><p class="plus">+</p></div>
+      </div>
+      <div class="menu">
+        <div class="menuList">
+          <p class="menuTitle">MENU</p>
+          <div class="menuItem">
+            <i class="fa-solid fa-house"></i>
+            <p class="menuName">Home</p>
+          </div>
+          <div class="menuItem">
+            <i class="fa-regular fa-compass"></i>
+            <p class="menuName">Discovery</p>
+          </div>
+          <div class="menuItem">
+            <i class="fa-solid fa-people-group"></i>
+            <p class="menuName">Community</p>
+          </div>
+          <div class="menuItem mitem">
+            <i class="fa-solid fa-clock"></i>
+            <p class="menuName">Coming soon</p>
+          </div>
+        </div>
+        <div class="menuList">
+          <p class="menuTitle">LIBRARY</p>
+          <div class="menuItem">
+            <i class="fa-regular fa-clock"></i>
+            <p class="menuName">Recent</p>
+          </div>
+          <div class="menuItem">
+            <i class="fa-regular fa-bookmark"></i>
+            <p class="menuName">Bookmarked</p>
+          </div>
+          <div class="menuItem">
+            <i class="fa-regular fa-star"></i>
+            <p class="menuName">Top rated</p>
+          </div>
+          <div class="menuItem mitem">
+            <i class="fa-solid fa-download"></i>
+            <p class="menuName">Downloaded</p>
+          </div>
+        </div>
+        <div class="menuItem">
+          <i class="fa-solid fa-gear"></i>
+          <p class="menuName">Settings</p>
+        </div>
+        <div class="menuItem">
+          <i class="fa-solid fa-circle-info"></i>
+          <p class="menuName">Help</p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="navBar">
+          <div class="category">
+            <p class="menuName mname">Movies</p>
+            <p class="menuName mname">Series</p>
+            <p class="menuName mname">TV Shows</p>
+          </div>
+          <div class="notify">
+            <i class="fa-solid fa-tower-broadcast mlogo"></i>
+            <i class="fa-regular fa-bell mlogo"></i>
+            <i class="fa-solid fa-bars mlogo"></i>
+          </div>
+        </div>
+        <div class="trend">
+          <p class="trendn">Trending movies</p>
+          <p class="seeAll">See all ></p>
+        </div>
+        <div class="cover">
+          <div class="movieLists">
+            <img
+              src="./assets/oppenheimer.jpg"
+              alt="oppenheimer movie"
+              class="mcover"
+            />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">Oppenheimer</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2023</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">9.2 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div id="moDal" class="watchnow" onclick="linkModal()">
+                      <p class="watchn">Watch now</p>
+                    </div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists">
+            <img src="./assets/intersteller.jpg" class="mcover" />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">Interstellar</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2014</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">8.7 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div id="moDal" class="watchnow" onclick="linkModal()">
+                      <p class="watchn">Watch now</p>
+                    </div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists">
+            <img src="./assets/batman.jpg" class="mcover" />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">The Dark Knight</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2008</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">9.0 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div class="watch"><p class="watchn">Watch now</p></div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="coverSecond">
+          <div class="movieLists">
+            <img
+              src="./assets/oppenheimer.jpg"
+              alt="oppenheimer movie"
+              class="mcover"
+            />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">Oppenheimer</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2023</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">9.2 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div class="watch"><p class="watchn">Watch now</p></div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists">
+            <img src="./assets/intersteller.jpg" class="mcover" />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">Interstellar</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2014</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">8.7 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div class="watch"><p class="watchn">Watch now</p></div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists">
+            <img src="./assets/batman.jpg" class="mcover" />
+            <div class="mcontent">
+              <div class="mtitle">
+                <p class="mtitles">The Dark Knight</p>
+                <div class="content">
+                  <div class="time">
+                    <p class="mtime">2008</p>
+                    <div class="rating">
+                      <img class="imdb" src="./assets/imdb.png" alt="invalid" />
+                      <p class="rate">9.0 rating</p>
+                    </div>
+                  </div>
+                  <div class="mwatch">
+                    <div class="watch"><p class="watchn">Watch now</p></div>
+                    <div class="add l"><p>+</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="continues" class="trend continue">
+          <p class="trendn">Continue watching</p>
+          <p class="see">See all ></p>
+        </div>
+        <div id="covers1" class="cover cover1">
+          <div class="movieLists movieLists1">
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover1" />
+            <i class="fa-solid fa-circle-play play"></i>
+            <div class="mcontent mcontent1">
+              <div class="mtitle mtitle1">
+                <p class="mtitles mtitles1">Oppenheimer</p>
+                <p class="mtime mtime1">2023</p>
+                <div class="mrange">
+                  <p class="totalTime">7.15</p>
+                  <input type="range" class="range" />
+                  <p class="totalTime">2.30.35</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists1">
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover1" />
+            <i class="fa-solid fa-circle-play play"></i>
+            <div class="mcontent mcontent1">
+              <div class="mtitle mtitle1">
+                <p class="mtitles mtitles1">Oppenheimer</p>
+                <p class="mtime mtime1">2023</p>
+                <div class="mrange">
+                  <p class="totalTime">7.15</p>
+                  <input type="range" class="range" />
+                  <p class="totalTime">2.30.35</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists1">
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover1" />
+            <i class="fa-solid fa-circle-play play"></i>
+            <div class="mcontent mcontent1">
+              <div class="mtitle mtitle1">
+                <p class="mtitles mtitles1">Oppenheimer</p>
+                <p class="mtime mtime1">2023</p>
+                <div class="mrange">
+                  <p class="totalTime">7.15</p>
+                  <input type="range" class="range" />
+                  <p class="totalTime">2.30.35</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists1">
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover1" />
+            <i class="fa-solid fa-circle-play play"></i>
+            <div class="mcontent mcontent1">
+              <div class="mtitle mtitle1">
+                <p class="mtitles mtitles1">Oppenheimer</p>
+                <p class="mtime mtime1">2023</p>
+                <div class="mrange">
+                  <p class="totalTime">7.15</p>
+                  <input type="range" class="range" />
+                  <p class="totalTime">2.30.35</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="topRated" class="trend toprated">
+          <div class="top">
+            <p class="trendn">Top rated</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="see">See all ></p>
+        </div>
+        <div id="covers2" class="cover cover2">
+          <div class="movieLists movieLists2">
+            <div class="rating1">
+              <i class="fa-solid fa-star star"></i>
+              <p class="rate1">9.2</p>
+            </div>
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover2" />
+            <div class="mcontent mcontent2">
+              <div class="mtitle mtitle2">
+                <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+                <p class="mtime mtime1 mtitles2">2023</p>
+                <div class="mwatch mwatch2">
+                  <div class="watch watch1">
+                    <p class="watchn watchn1">Watch now</p>
+                  </div>
+                  <div class="add l1"><p>+</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists2">
+            <div class="rating1">
+              <i class="fa-solid fa-star star"></i>
+              <p class="rate1">9.2</p>
+            </div>
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover2" />
+            <div class="mcontent mcontent2">
+              <div class="mtitle mtitle2">
+                <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+                <p class="mtime mtime1 mtitles2">2023</p>
+                <div class="mwatch mwatch2">
+                  <div class="watch watch1">
+                    <p class="watchn watchn1">Watch now</p>
+                  </div>
+                  <div class="add l1"><p>+</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists2">
+            <div class="rating1">
+              <i class="fa-solid fa-star star"></i>
+              <p class="rate1">9.2</p>
+            </div>
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover2" />
+            <div class="mcontent mcontent2">
+              <div class="mtitle mtitle2">
+                <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+                <p class="mtime mtime1 mtitles2">2023</p>
+                <div class="mwatch mwatch2">
+                  <div class="watch watch1">
+                    <p class="watchn watchn1">Watch now</p>
+                  </div>
+                  <div class="add l1"><p>+</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists2">
+            <div class="rating1">
+              <i class="fa-solid fa-star star"></i>
+              <p class="rate1">9.2</p>
+            </div>
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover2" />
+            <div class="mcontent mcontent2">
+              <div class="mtitle mtitle2">
+                <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+                <p class="mtime mtime1 mtitles2">2023</p>
+                <div class="mwatch mwatch2">
+                  <div class="watch watch1">
+                    <p class="watchn watchn1">Watch now</p>
+                  </div>
+                  <div class="add l1"><p>+</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movieLists movieLists2">
+            <div class="rating1">
+              <i class="fa-solid fa-star star"></i>
+              <p class="rate1">9.2</p>
+            </div>
+            <img src="./assets/oppenheimer.jpg" class="mcover mcover2" />
+            <div class="mcontent mcontent2">
+              <div class="mtitle mtitle2">
+                <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+                <p class="mtime mtime1 mtitles2">2023</p>
+                <div class="mwatch mwatch2">
+                  <div class="watch watch1">
+                    <p class="watchn watchn1">Watch now</p>
+                  </div>
+                  <div class="add l1"><p>+</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="account">
+          <div class="profile">
+            <div class="info">
+              <div class="avatar">
+                <img src="./assets/avatar.jpg" class="pavatar" />
+              </div>
+              <div class="pinfo">
+                <p class="blaze">Blaze</p>
+                <p class="gmail">blaze7@gmail.com</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-angle-down down"></i>
+          </div>
+          <div class="searching">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+            <input class="inputm" type="text" placeholder="Search movies" />
+            <i class="fa-solid fa-sliders search s"></i>
+          </div>
+        </div>
+        <div class="genre">
+          <p class="genren">GENRE</p>
+          <div class="list">
+            <div class="lists">
+              <p class="genreName">Action</p>
+              <i class="fa-solid fa-check tick"></i>
+            </div>
+            <div class="lists">
+              <p class="genreName">Crime & Mystry</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+          </div>
+          <div class="list">
+            <div class="lists">
+              <p class="genreName">Comedy</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+            <div class="lists">
+              <p class="genreName">Adventure</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+          </div>
+          <div class="list">
+            <div class="lists">
+              <p class="genreName">Sci-Fi</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+            <div class="lists">
+              <p class="genreName">Historical</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+          </div>
+          <div class="list">
+            <div class="lists">
+              <p class="genreName">Drama</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+            <div class="lists">
+              <p class="genreName">Horror</p>
+              <i class="fa-solid fa-plus tick"></i>
+            </div>
+          </div>
+        </div>
+        <div class="trend trend1">
+          <p class="trendn">Recent Download</p>
+          <p class="see">See all ></p>
+        </div>
+        <div class="movieLists movieLists1">
+          <img src="./assets/oppenheimer.jpg" class="mcover mcover3" />
+          <i class="fa-solid fa-circle-play play"></i>
+          <div class="mcontent mcontent1">
+            <div class="mtitle mtitle1">
+              <p class="mtitles mtitles1">Oppenheimer</p>
+              <p class="mtime mtime1">2023</p>
+              <div class="mrange">
+                <p class="totalTime">7.15</p>
+                <input type="range" class="range" />
+                <p class="totalTime">2.30.35</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trend toprated trend1">
+          <p class="trendn">Bookmarked</p>
+          <p class="see">See all ></p>
+        </div>
+        <div class="movieLists movieLists3">
+          <div class="rating1">
+            <i class="fa-solid fa-star star"></i>
+            <p class="rate1">9.2</p>
+          </div>
+          <img src="./assets/oppenheimer.jpg" class="mcover mcover3" />
+          <div class="mcontent mcontent3">
+            <div class="mtitle">
+              <p class="mtitles mtitles1 mtitles2">Oppenheimer</p>
+              <p class="mtime mtime1 mtitles2">2023</p>
+              <div class="mwatch mwatch2">
+                <div class="watch watch1">
+                  <p class="watchn watchn1">Watch now</p>
+                </div>
+                <div class="add l1"><p>+</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
